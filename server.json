@@ -106,7 +106,7 @@
     "мирные": ["Мирные дни — bliss.", "Enjoy peace.", "Мирные моменты.", "Peace inside.", "Cultivate peace."]
   },
   "Categories": {
-    "что ты умеешь": "greeting",
+    "что ты умеешь": "abilities",
     "привет": "greeting",
     "какдела": "status",
     "помоги": "help",
@@ -308,4 +308,5 @@
     "chill": "релаксация",
     "explore": "приключения"
   }
+
 }
