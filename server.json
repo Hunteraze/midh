@@ -105,7 +105,7 @@
     "приключения": ["Приключения — thrill.", "Seek adventure.", "Life is adventure.", "Приключения stories.", "Dare to adventure."],
     "мирные": ["Мирные дни — bliss.", "Enjoy peace.", "Мирные моменты.", "Peace inside.", "Cultivate peace."]
   },
-  "Categories": {
+"Categories": {
     "что ты умеешь": "abilities",
     "привет": "greeting",
     "какдела": "status",
@@ -210,7 +210,7 @@
     "релаксация": "relaxation",
     "приключения": "adventure",
     "мирные": "peace"
-  },
+},
   "Synonyms": {
     "шутка": "анекдот",
     "приветики": "привет",
@@ -310,3 +310,4 @@
   }
 
 }
+
