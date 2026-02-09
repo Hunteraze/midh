@@ -30,4 +30,3 @@
     "code": "using System;\nusing System.Threading.Tasks;\n\nclass Program\n{\n    static async Task Main()\n    {\n        await Task.Delay(1000);\n        Console.WriteLine(\"Готово!\");\n    }\n}"
   }
 ]
-Ы
