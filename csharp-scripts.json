@@ -1,0 +1,33 @@
+[
+  {
+    "title": "Console Calculator",
+    "description": "Простой калькулятор в консоли",
+    "code": "using System;\n\nclass Program\n{\n    static void Main()\n    {\n        Console.Write(\"Введите первое число: \");\n        double a = double.Parse(Console.ReadLine());\n        Console.Write(\"Введите второе число: \");\n        double b = double.Parse(Console.ReadLine());\n        Console.WriteLine($\"Сумма: {a + b}\");\n    }\n}"
+  },
+  {
+    "title": "Random Number Generator",
+    "description": "Генерация случайных чисел",
+    "code": "using System;\n\nclass Program\n{\n    static void Main()\n    {\n        Random rnd = new Random();\n        for (int i = 0; i < 5; i++)\n            Console.WriteLine(rnd.Next(1, 101));\n    }\n}"
+  },
+  {
+    "title": "List Example",
+    "description": "Работа со списком List<T>",
+    "code": "using System;\nusing System.Collections.Generic;\n\nclass Program\n{\n    static void Main()\n    {\n        List<string> names = new List<string> { \"Alice\", \"Bob\", \"Charlie\" };\n        names.Add(\"David\");\n        foreach (var name in names)\n            Console.WriteLine(name);\n    }\n}"
+  },
+  {
+    "title": "File Read",
+    "description": "Чтение файла",
+    "code": "using System;\nusing System.IO;\n\nclass Program\n{\n    static void Main()\n    {\n        string text = File.ReadAllText(\"test.txt\");\n        Console.WriteLine(text);\n    }\n}"
+  },
+  {
+    "title": "LINQ Filter",
+    "description": "Фильтрация списка через LINQ",
+    "code": "using System;\nusing System.Linq;\n\nclass Program\n{\n    static void Main()\n    {\n        int[] numbers = {1,2,3,4,5,6};\n        var even = numbers.Where(n => n % 2 == 0);\n        foreach (var n in even)\n            Console.WriteLine(n);\n    }\n}"
+  },
+  {
+    "title": "Async Task Example",
+    "description": "Асинхронная задача",
+    "code": "using System;\nusing System.Threading.Tasks;\n\nclass Program\n{\n    static async Task Main()\n    {\n        await Task.Delay(1000);\n        Console.WriteLine(\"Готово!\");\n    }\n}"
+  }
+]
+Ы
